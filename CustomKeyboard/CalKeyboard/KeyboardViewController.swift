@@ -11,6 +11,15 @@ import UIKit
 class KeyboardViewController: UIInputViewController {
 
     @IBOutlet var nextKeyboardButton: UIButton!
+    @IBOutlet var returnKeyboardButton: UIButton!
+    @IBOutlet var deleteKeyboardButton: UIButton!
+    @IBOutlet var wowKeyboardButton: UIButton!
+    @IBOutlet var whyKeyboardButton: UIButton!
+    @IBOutlet var haKeyboardButton: UIButton!
+    @IBOutlet var awkKeyboardButton: UIButton!
+    @IBOutlet var sorryKeyboardButton: UIButton!
+    @IBOutlet var spaceKeyboardButton: UIButton!
+    
     
     var keyboardView: UIView!
 
@@ -38,6 +47,39 @@ class KeyboardViewController: UIInputViewController {
         // The app has just changed the document's contents, the document context has been updated.
     }
 
+
+    func deleteKey() {
+        textDocumentProxy.deleteBackward()
+    }
+    
+    func returnKey() {
+        textDocumentProxy.insertText("\n")
+    }
+    
+    func wowKey() {
+        textDocumentProxy.insertText("waow! ")
+    }
+    
+    func whyKey() {
+        textDocumentProxy.insertText("but whyyyyyyy ")
+    }
+    
+    func haKey() {
+        textDocumentProxy.insertText("hAhAhAHAAAhaaAHaaHAhA ")
+    }
+    
+    func awkKey() {
+        textDocumentProxy.insertText("awk my bad ")
+    }
+    
+    func sorryKey() {
+        textDocumentProxy.insertText("sry ")
+    }
+    
+    func spaceKey() {
+         textDocumentProxy.insertText(" ")
+    }
+    
     func loadInterface() {
         let keyboardNib = UINib(nibName: "Keyboard", bundle: nil)
         keyboardView = keyboardNib.instantiateWithOwner(self, options: nil)[0] as! UIView
@@ -45,7 +87,15 @@ class KeyboardViewController: UIInputViewController {
         view.addSubview(keyboardView)
         view.backgroundColor = keyboardView.backgroundColor
         nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside) // advanceToNextInputMode is already defined in template
+        returnKeyboardButton.addTarget(self, action: "returnKey", forControlEvents: .TouchUpInside)
+        deleteKeyboardButton.addTarget(self, action: "deleteKey", forControlEvents: .TouchUpInside)
+        wowKeyboardButton.addTarget(self, action: "wowKey", forControlEvents: .TouchUpInside)
+        whyKeyboardButton.addTarget(self, action: "whyKey", forControlEvents: .TouchUpInside)
+        haKeyboardButton.addTarget(self, action: "haKey", forControlEvents: .TouchUpInside)
+        awkKeyboardButton.addTarget(self, action: "awkKey", forControlEvents: .TouchUpInside)
+        sorryKeyboardButton.addTarget(self, action: "sorryKey", forControlEvents: .TouchUpInside)
+        spaceKeyboardButton.addTarget(self, action: "spaceKey", forControlEvents: .TouchUpInside)
     }
-
+    
 
 }
