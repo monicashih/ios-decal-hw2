@@ -33,35 +33,35 @@
                         <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFm-aa-nIE">
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFm-aa-nIE">
                     <rect key="frame" x="106" y="58" width="46" height="18"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <state key="normal" title="wow">
                         <color key="titleColor" red="1" green="0.55666196668183088" blue="0.090684296049874824" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zfn-YX-PEJ">
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zfn-YX-PEJ">
                     <rect key="frame" x="187" y="58" width="46" height="18"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <state key="normal" title="awk">
                         <color key="titleColor" red="0.1725512985202351" green="1" blue="0.50679358960130183" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZW-ci-n17">
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZW-ci-n17">
                     <rect key="frame" x="106" y="109" width="46" height="17"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <state key="normal" title="why">
                         <color key="titleColor" red="0.34620777351702892" green="0.40073860953690288" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyo-zh-hhS">
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyo-zh-hhS">
                     <rect key="frame" x="187" y="109" width="46" height="18"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <state key="normal" title="ha">
                         <color key="titleColor" red="0.81347092494424045" green="0.2416188757866764" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGM-xO-A5N">
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGM-xO-A5N">
                     <rect key="frame" x="313" y="156" width="46" height="30"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -69,19 +69,19 @@
                         <color key="titleColor" red="1" green="0.3120591745442084" blue="0.42706449927707668" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okJ-g2-RyK">
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okJ-g2-RyK">
                     <rect key="frame" x="256" y="77" width="46" height="30"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <state key="normal" title="sorry">
                         <color key="titleColor" red="0.92518109123202863" green="0.40778674658713099" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9L-qf-QzN">
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9L-qf-QzN">
                     <rect key="frame" x="106" y="162" width="159" height="30"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <state key="normal" title="Space"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFX-xb-Bbj">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFX-xb-Bbj">
                     <rect key="frame" x="313" y="118" width="46" height="30"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <state key="normal" title="Delete">
@@ -91,7 +91,26 @@
             </subviews>
             <color key="backgroundColor" red="1" green="0.9062158851313471" blue="0.95030298222907017" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="pyo-zh-hhS" secondAttribute="bottom" constant="73" id="4PY-v5-dVs"/>
+                <constraint firstAttribute="trailing" secondItem="LFX-xb-Bbj" secondAttribute="trailing" constant="16" id="9Wy-RL-dWh"/>
+                <constraint firstItem="TFm-aa-nIE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="58" id="MQd-LH-UOS"/>
+                <constraint firstAttribute="bottom" secondItem="vZW-ci-n17" secondAttribute="bottom" constant="74" id="Ps7-as-qNy"/>
+                <constraint firstAttribute="trailing" secondItem="okJ-g2-RyK" secondAttribute="trailing" constant="73" id="Q4f-X2-eC5"/>
+                <constraint firstItem="okJ-g2-RyK" firstAttribute="leading" secondItem="Zfn-YX-PEJ" secondAttribute="trailing" constant="23" id="RXu-pA-VZo"/>
                 <constraint firstItem="gRt-12-JcF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Uc6-gm-lMa"/>
+                <constraint firstItem="vZW-ci-n17" firstAttribute="top" secondItem="TFm-aa-nIE" secondAttribute="bottom" constant="33" id="XnS-h7-Zsr"/>
+                <constraint firstItem="Zfn-YX-PEJ" firstAttribute="leading" secondItem="TFm-aa-nIE" secondAttribute="trailing" constant="35" id="awf-Rc-8bO"/>
+                <constraint firstItem="pyo-zh-hhS" firstAttribute="leading" secondItem="vZW-ci-n17" secondAttribute="trailing" constant="35" id="eTo-5r-llG"/>
+                <constraint firstItem="pyo-zh-hhS" firstAttribute="top" secondItem="Zfn-YX-PEJ" secondAttribute="bottom" constant="33" id="f0h-M4-Dx2"/>
+                <constraint firstItem="LFX-xb-Bbj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="118" id="hvq-zX-sJj"/>
+                <constraint firstItem="LFX-xb-Bbj" firstAttribute="leading" secondItem="okJ-g2-RyK" secondAttribute="trailing" constant="11" id="lPj-0z-iRp"/>
+                <constraint firstItem="okJ-g2-RyK" firstAttribute="leading" secondItem="W9L-qf-QzN" secondAttribute="trailing" constant="-9" id="m76-NW-lRo"/>
+                <constraint firstItem="Zfn-YX-PEJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="58" id="mYE-wF-S0p"/>
+                <constraint firstItem="okJ-g2-RyK" firstAttribute="leading" secondItem="pyo-zh-hhS" secondAttribute="trailing" constant="23" id="pvb-gh-sER"/>
+                <constraint firstItem="nGM-xO-A5N" firstAttribute="leading" secondItem="W9L-qf-QzN" secondAttribute="trailing" constant="48" id="q4J-l6-pC6"/>
+                <constraint firstItem="W9L-qf-QzN" firstAttribute="leading" secondItem="gRt-12-JcF" secondAttribute="trailing" constant="68" id="rW4-Hk-n0b"/>
+                <constraint firstAttribute="bottom" secondItem="W9L-qf-QzN" secondAttribute="bottom" constant="8" id="uje-wf-pdF"/>
+                <constraint firstAttribute="bottom" secondItem="nGM-xO-A5N" secondAttribute="bottom" constant="14" id="vFz-HU-taj"/>
                 <constraint firstAttribute="bottom" secondItem="gRt-12-JcF" secondAttribute="bottom" constant="8" id="yoH-52-UbQ"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
